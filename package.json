@@ -1,49 +1,30 @@
 {
-  "name": "dbp",
-  "version": "1.2.0",
-  "description": "🎉 Manage your discord bots and node.js scripts with a web panel.",
-  "main": "index.js",
-  "repository": "git+https://github.com/jareer12/DiscordBotPanel.git",
-  "bugs": {
-    "url": "https://github.com/jareer12/DiscordBotPanel/issues"
-  },
-  "homepage": "https://github.com/jareer12/DiscordBotPanel#readme",
-  "scripts": {
-    "tsc": "tsc --watch",
-    "tailwinds": "npx tailwindcss -i ./public/build.css -o ./public/tailwinds.css --watch --minify",
-    "generate_tailwinds": "npx tailwindcss -i ./public/build.css -o ./public/tailwinds.css --minify"
-  },
-  "keywords": [
-    "discord",
-    "discord bot",
-    "manager",
-    "discord bot panel",
-    "dbp"
-  ],
-  "author": "jareer12",
-  "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.19.1",
-    "chalk": "^2.4.2",
-    "cors": "^2.8.5",
-    "discord.js": "^14.3.0",
-    "dotenv": "^10.0.0",
+    "@replit/database": "^2.0.2",
+    "chalk": "^4.0.0",
+    "discord.js": "^13.6.0",
     "express": "^4.17.2",
-    "express-fileupload": "^1.2.1",
-    "express-session": "^1.17.2",
-    "fast-folder-size": "^1.6.1",
-    "fs": "^0.0.1-security",
-    "https": "^1.0.0",
-    "https-proxy-agent": "^5.0.1",
-    "node-fetch": "^3.2.10",
-    "path": "^0.12.7",
-    "phin": "^3.6.1",
-    "pm2": "^5.1.2",
-    "system-commands": "^1.1.7",
-    "systeminformation": "^5.9.17",
-    "typescript": "^4.6.3"
+    "glob": "^7.2.0",
+    "gradient-string": "^2.0.0",
+    "phin": "^3.6.1"
   },
-  "devDependencies": {
-    "@types/node": "^17.0.27"
-  }
+  "name": "antinuke-bot",
+  "description": "Use this tool to protect your discord servers against nukes.",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd src && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sxlitude/antinuke.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sxlitude/antinuke/issues"
+  },
+  "homepage": "https://github.com/Sxlitude/antinuke#readme"
 }
