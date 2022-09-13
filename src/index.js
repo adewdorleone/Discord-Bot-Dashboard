@@ -15,7 +15,7 @@ client.slashCommands = new Collection();
 
 /* Handler */
 require("./handler")(client);
-client.login("MTAwNjk5NjMwMjYyMzY5MDc5NA.GcfuMR.-q2inBri1_YHGGSbLsNurkUCwBuPjwDa3EDjls").catch((e) => {
+client.login("MTAwNjk5NjMwMjYyMzY5MDc5NA.GZTeWc.bDAdZ3ueBIjZ0BytsXq8PgaVfAN9VoZId_vFfY").catch((e) => {
   console.log(`${chalk.red(`\n{!} :: Failed to log in.. Please check if your bot token is valid or it has all intents enabled..`)}`)
   setTimeout(() => {
     process.exit();
